@@ -78,7 +78,7 @@
                         </figure></div>
                         <div style="transform: translate(100vw, 0);"  id="galleryInFromRight" class="drop-shadow-lg basis-full md:basis-1/2 "><figure class="bg-white p-2 rounded-lg w-fit md:w-min border-2 border-violet-400 m-auto">
                             <img src="/this.png" class="aspect-video md:max-w-[40vw] rounded hover:saturate-150 transition duration-500" />
-                            <figcaption class="text-xl text-slate-800 underline"><a target="blank" href="https://github.com/">Responsive Portfolio | Preact | Tailwind (Created in one afternoon)</a></figcaption>
+                            <figcaption class="text-xl text-slate-800 underline"><a target="blank" href="https://github.com/blinx-ved/portfolio">Responsive Portfolio | Preact | Tailwind (Created in one afternoon)</a></figcaption>
                         </figure></div>
                     </section>
                 </main>
