@@ -50,7 +50,7 @@
                     ${thing.map(d=>{return(html`<a href=${"#" + d} class="navBorder py-2 text-slate-800 w-full text-center font-bold  border-r-[3px] border-violet-400 hover:bg-black/75 hover:text-white ease-in-out transition-all">${d}</a>`)})}
                 </nav>
                 <main class="overflow-hidden">
-                    <section id="Landing" class="bg-[#ffeaa7] bg-[url('/squiggle.svg')] h-[100vh] w-full border-b-4 border-black ">
+                    <section id="Landing" class="bg-[#ffeaa7] bg-[url('squiggle.svg')] h-[100vh] w-full border-b-4 border-black ">
                         <h1 id="thing" class="w-full sm:text-[15vw] text-[25vw] leading-none text-center font-bold text-slate-800 absolute top-[20%] sm:top-[5%]">Tyler Tocket</h1>
                         <div class="w-full sm:text-[5vw] text-[15vw] absolute bottom-[20%] sm:bottom-[5%]">
                             <h2 class="text-center  text-slate-800 font-medium">I make</h2>
@@ -70,14 +70,14 @@
                             </div> 
                         </div>
                     </section>
-                    <section id="Gallery" class="bg-[#fff] bg-[url('/angledWaves.svg')] h-[100vh] w-full border-b-4 border-black px-[3vw] flex flex-wrap">
+                    <section id="Gallery" class="bg-[#fff] bg-[url('angledWaves.svg')] h-[100vh] w-full border-b-4 border-black px-[3vw] flex flex-wrap">
                         <h1 class="w-full sm:text-[5vw] text-[15vw] text-left font-bold pt-4 basis-full text-slate-800 ">Gallery:</h1>
                         <div style="transform: translate(-100vw, 0);"  id="galleryInFromLeft" class="basis-full md:basis-1/2 "><figure class="bg-white p-2 rounded-lg w-fit md:w-min border-2 border-violet-400 m-auto">
-                            <img src="/photoshop.png" class="aspect-video md:max-w-[40vw] rounded hover:saturate-150 transition duration-500" />
+                            <img src="photoshop.png" class="aspect-video md:max-w-[40vw] rounded hover:saturate-150 transition duration-500" />
                             <figcaption class="text-xl text-slate-800 ">Angry Birds Drawing | Adobe Illustrator</figcaption>
                         </figure></div>
                         <div style="transform: translate(100vw, 0);"  id="galleryInFromRight" class="drop-shadow-lg basis-full md:basis-1/2 "><figure class="bg-white p-2 rounded-lg w-fit md:w-min border-2 border-violet-400 m-auto">
-                            <img src="/this.png" class="aspect-video md:max-w-[40vw] rounded hover:saturate-150 transition duration-500" />
+                            <img src="this.png" class="aspect-video md:max-w-[40vw] rounded hover:saturate-150 transition duration-500" />
                             <figcaption class="text-xl text-slate-800 underline"><a target="blank" href="https://github.com/blinx-ved/portfolio">Responsive Portfolio | Preact | Tailwind (Created in one afternoon)</a></figcaption>
                         </figure></div>
                     </section>
